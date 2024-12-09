@@ -35,5 +35,5 @@ print(f'編譯階段針對的 SDL 版本：{pygame.get_sdl_version(False)}')
 # 取得 SDL 的位元組排列方式
 print(pygame.get_sdl_byteorder())
 
-# 結束
+# 取消初始化
 pygame.quit()

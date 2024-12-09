@@ -35,5 +35,5 @@ print(f'编译时针对的 SDL 版本：{pygame.get_sdl_version(False)}')
 # 获取 SDL 的字节序
 print(pygame.get_sdl_byteorder())
 
-# 退出
+# 取消初始化
 pygame.quit()
