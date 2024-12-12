@@ -1,0 +1,8 @@
+__pycache__/
+.vscode/settings*
+temp.py
+*.pyc
+*.zip
+test*.py
+test/
+test.*
