@@ -18,3 +18,7 @@ print(f'{color1} % {color2} = {color1 % color2}')
 color3 = Color(100, 120, 200, 200)
 print(f'{color1} == {color3} {color1 == color3}')
 print(f'{color1} != {color2} {color1 != color2}')
+
+# 除数为 0 的情况
+print(Color(0xFFFFFFFF) // Color(0x00000000))
+print(Color(0xFFFFFFFF) % Color(0x00000000))
