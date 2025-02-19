@@ -1,11 +1,11 @@
 {
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 2.5,
     "terminal.integrated.profiles.windows": {
         "Pygame": {
             "source": "PowerShell",
             "icon": "game",
             "env": {
-                // "SDL_VIDEODRIVER": "abc"
+                "SDL_MOUSEWHEEL_FLIPPED": "-1"
             }
         }
     },
