@@ -3,7 +3,7 @@ from pygame import display, event
 w = display.set_mode((400, 300))
 
 # 导入与键盘事件相关的变量
-from pygame import KEYDOWN, KEYUP, KEYMAPCHANGED, K_UP, K_DOWN, K_LEFT, K_RIGHT, K_LSHIFT
+from pygame import KEYDOWN, KEYUP, KEYMAPCHANGED, K_UP, K_DOWN, K_LEFT, K_RIGHT, KMOD_RCTRL
 
 running = True
 while running:
@@ -20,8 +20,9 @@ while running:
                 print('左方向键')
             elif e.key == K_RIGHT:
                 print('右方向键')
-            elif e.key == K_LSHIFT:
-                # 结束游戏循环
+            
+            if e.mod & KMOD_RCTRL:
+                # 按下右 Ctrl 键，则结束游戏循环
                 running = False
 
         elif e.type == KEYUP:

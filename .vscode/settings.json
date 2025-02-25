@@ -1,5 +1,6 @@
 {
     "window.zoomLevel": 2.5,
+    "editor.cursorSurroundingLines": 10,
     "terminal.integrated.profiles.windows": {
         "Pygame": {
             "source": "PowerShell",
