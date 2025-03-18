@@ -18,6 +18,6 @@ ts = f.render('以粗體樣式繪製', False, [255, 0, 0])
 w.blit(ts, [50, 50])
 display.flip()
 
-# 等待 3 秒
+# 等候 3 秒
 import time
 time.sleep(3)

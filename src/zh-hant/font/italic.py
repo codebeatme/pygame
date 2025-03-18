@@ -18,6 +18,6 @@ ts = f.render('Draw in italic style', True, (0, 255, 0))
 w.blit(ts, (200, 200))
 display.flip()
 
-# 等待 3 秒
+# 等候 3 秒
 import time
 time.sleep(3)

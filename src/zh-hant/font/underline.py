@@ -15,6 +15,6 @@ w = display.set_mode((800, 600))
 w.blit(f.render('Underline', False, [255, 0, 255]), [200, 200])
 display.flip()
 
-# 等待 3 秒
+# 等候 3 秒
 import time
 time.sleep(3)

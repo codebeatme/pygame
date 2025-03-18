@@ -19,6 +19,6 @@ w.blits([
 ])
 display.flip()
 
-# 等待 3 秒鐘
+# 等候 3 秒鐘
 import time
 time.sleep(3)

@@ -9,7 +9,7 @@ event.set_keyboard_grab(True)
 print(f'獨占輸入裝置？{event.get_grab()}')
 print(f'獨占鍵盤輸入？{event.get_keyboard_grab()}')
 
-# 在遊戲迴圈中等待結束要求
+# 在遊戲迴圈中等候結束要求
 from pygame import QUIT
 running = True
 while running:

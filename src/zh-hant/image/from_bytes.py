@@ -8,7 +8,7 @@ bs = PIL.Image.open('sky.webp').tobytes()
 # 將 bytes 物件轉換為 Surface 物件
 sky = image.frombytes(bs, (729, 1296), 'RGB', True)
 
-# 建立遊戲視窗，繪製天空，並等待 2 秒鐘
+# 建立遊戲視窗，繪製天空，並等候 2 秒鐘
 s = display.set_mode((800, 600))
 s.blit(sky, (0, 0))
 display.flip()

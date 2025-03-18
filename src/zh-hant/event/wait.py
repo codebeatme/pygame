@@ -8,7 +8,7 @@ from pygame import NOEVENT
 while True:
     # 取得佇列中的所有事件
     event.get()
-    # 等待一個新的事件，逾時時間為 5 秒
+    # 等候一個新的事件，逾時時間為 5 秒
     e = event.wait(5000)
     
     # 如果佇列中沒有事件，則結束

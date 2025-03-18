@@ -16,6 +16,6 @@ w = display.set_mode((800, 600))
 w.blit(f.render('Strikethrough', False, [255, 255, 255]), [300, 300])
 display.flip()
 
-# 等待 3 秒
+# 等候 3 秒
 import time
 time.sleep(3)

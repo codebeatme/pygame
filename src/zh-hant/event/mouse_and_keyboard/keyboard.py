@@ -26,6 +26,6 @@ while running:
                 running = False
 
         elif e.type == KEYUP:
-            print('釋放鍵盤', e)
+            print('放開鍵盤', e)
         elif e.type == KEYMAPCHANGED:
             print('鍵盤布局改變', e)

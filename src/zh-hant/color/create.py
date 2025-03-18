@@ -8,7 +8,7 @@ green1 = Color('#00FF00')
 green2 = Color('#00FF99')
 blue = Color('blue')
 
-# 建立遊戲視窗，使用色彩進行繪製，並等待 2 秒鐘
+# 建立遊戲視窗，使用色彩進行繪製，並等候 2 秒鐘
 from pygame import display, draw, Surface, SRCALPHA
 s = display.set_mode((800, 600))
 # 建立表面，繪製矩形，填入色彩

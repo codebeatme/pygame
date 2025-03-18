@@ -22,7 +22,7 @@ print(f'表面大小：{s.get_size()}')
 s = display.set_mode((600, 400), FULLSCREEN)
 print(f'表面大小：{s.get_size()}')
 
-# 等待 3 秒
+# 等候 3 秒
 import time
 time.sleep(3)
 

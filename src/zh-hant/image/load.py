@@ -8,7 +8,7 @@ sky = image.load(data)
 # 直接載入影像檔案 candy.png
 candy = image.load_extended('candy.png')
 
-# 建立遊戲視窗，繪製天空和糖果，並等待 2 秒鐘
+# 建立遊戲視窗，繪製天空和糖果，並等候 2 秒鐘
 s = display.set_mode((800, 600))
 s.blit(sky, (0, 0))
 s.blit(candy, (100, 100))
