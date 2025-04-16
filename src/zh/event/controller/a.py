@@ -11,7 +11,9 @@ while running:
         if e.type == QUIT:
             running = False
         elif e.type == JOYDEVICEADDED:
-            jss.append(joystick.Joystick(e.device_index))
+            j = joystick.Joystick(e.device_index)
+            jss.append(j)
+            print(j.get_name())
         elif e.type == JOYAXISMOTION:
             if e.axis == 0 or e.axis == 1:
                 print('左摇杆')

@@ -1,4 +1,4 @@
-# 导入初始化相关模块，创建游戏窗口
+# 导入并初始化相关模块，创建游戏窗口
 from pygame import display, event, joystick, JOYDEVICEADDED, QUIT
 display.set_mode((800, 600))
 joystick.init()
@@ -16,6 +16,7 @@ while running:
         elif e.type == JOYDEVICEADDED:
             jss.append(joystick.Joystick(e.device_index))
         elif e.type == JOYAXISMOTION:
+            print(e)
             # 判断触发事件的轴装置是否为右扳机键
             if e.axis == 5:
                 # 判断右扳机键的移动程度，是否足以发动攻击

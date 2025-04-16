@@ -12,7 +12,7 @@ cross_strings = (
     "   --   ",
     "   ++   ",
 )
-# 使用 compile 建置對應的掩碼
+# 使用 compile 建置對應的遮罩
 (xormarks, andmarks) = cursors.compile(cross_strings, '+', '-')
 
 # 建立表示十字的 Cursor 物件，大小 8x8，作用點在 4 4

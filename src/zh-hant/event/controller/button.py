@@ -1,4 +1,4 @@
-# 匯入初始化相關模組，建立遊戲視窗
+# 匯入並初始化相關模組，建立遊戲視窗
 from pygame import display, event, joystick, JOYDEVICEADDED
 display.set_mode((800, 600))
 joystick.init()

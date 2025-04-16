@@ -1,4 +1,4 @@
-# 匯入初始化相關模組，建立遊戲視窗
+# 匯入並初始化相關模組，建立遊戲視窗
 from pygame import display, event, joystick, JOYDEVICEADDED, QUIT
 display.set_mode((800, 600))
 joystick.init()
@@ -16,6 +16,7 @@ while running:
         elif e.type == JOYDEVICEADDED:
             jss.append(joystick.Joystick(e.device_index))
         elif e.type == JOYAXISMOTION:
+            print(e)
             # 判斷觸發事件的軸裝置是否為右扳機鍵
             if e.axis == 5:
                 # 判斷右扳機鍵的移動程度，是否足以發動攻擊

@@ -1,4 +1,4 @@
-# 导入初始化相关模块，创建游戏窗口
+# 导入并初始化相关模块，创建游戏窗口
 from pygame import display, event, joystick, JOYDEVICEADDED
 display.set_mode((800, 600))
 joystick.init()
